@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+/* React Flow specific styles */
+.react-flow-canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.react-flow__node {
+  z-index: 10;
+}
+
+.react-flow__handle {
+  z-index: 20;
+}
+
+.react-flow__edge {
+  z-index: 5;
+}
+
+.react-flow__edge-path {
+  stroke: #3B82F6 !important;
+  stroke-width: 2px !important;
+  fill: none !important;
+}
+
+.react-flow__edge-marker {
+  fill: #3B82F6 !important;
+}
+
+.react-flow__edge-marker path {
+  fill: #3B82F6 !important;
+}
+
+.react-flow__edge-text {
+  fill: #3B82F6 !important;
+  font-size: 12px !important;
+}
