@@ -1,38 +1,62 @@
+/**
+ * Global CSS Styles
+ * 
+ * This file contains global styles for the BiteSpeed Chatbot Flow Builder application.
+ * It includes Tailwind CSS imports and custom React Flow styling to ensure
+ * consistent appearance and proper functionality across the application.
+ */
+
+/* Import Tailwind CSS for utility-first styling */
 @import "tailwindcss";
 
-/* React Flow specific styles */
+/* React Flow Canvas Styles */
+/* Ensure the React Flow canvas takes up the full available space */
 .react-flow-canvas {
   width: 100% !important;
   height: 100% !important;
 }
 
+/* React Flow Node Styles */
+/* Set z-index to ensure nodes appear above edges */
 .react-flow__node {
   z-index: 10;
 }
 
+/* React Flow Handle Styles */
+/* Set higher z-index to ensure handles are always clickable and visible */
 .react-flow__handle {
   z-index: 20;
 }
 
+/* React Flow Edge Styles */
+/* Set lower z-index so edges appear behind nodes */
 .react-flow__edge {
   z-index: 5;
 }
 
+/* React Flow Edge Path Styles */
+/* Customize edge appearance with blue color and proper stroke width */
 .react-flow__edge-path {
-  stroke: #3B82F6 !important;
-  stroke-width: 2px !important;
-  fill: none !important;
+  stroke: #3B82F6 !important; /* Blue color matching the application theme */
+  stroke-width: 2px !important; /* Consistent stroke width for visibility */
+  fill: none !important; /* No fill for clean line appearance */
 }
 
+/* React Flow Edge Marker Styles */
+/* Style the arrow markers at the end of edges */
 .react-flow__edge-marker {
-  fill: #3B82F6 !important;
+  fill: #3B82F6 !important; /* Blue fill for arrow markers */
 }
 
+/* React Flow Edge Marker Path Styles */
+/* Ensure arrow marker paths are properly filled */
 .react-flow__edge-marker path {
-  fill: #3B82F6 !important;
+  fill: #3B82F6 !important; /* Blue fill for arrow marker paths */
 }
 
+/* React Flow Edge Text Styles */
+/* Style any text labels on edges */
 .react-flow__edge-text {
-  fill: #3B82F6 !important;
-  font-size: 12px !important;
+  fill: #3B82F6 !important; /* Blue color for edge text */
+  font-size: 12px !important; /* Consistent font size for readability */
 }
