@@ -2,6 +2,10 @@
 
 A modern, extensible chatbot flow builder built with React, TypeScript, and React Flow. Create interactive conversation flows with drag-and-drop ease.
 
+## 🌐 Live Demo
+
+**[Try the live application here](https://bitespeed-fe-task.netlify.app/)**
+
 ## ✨ Features
 
 ### 🗨️ Text Node
@@ -243,10 +247,6 @@ npx tsc --noEmit     # Check TypeScript types
 3. **Add** your changes with proper types
 4. **Test** thoroughly
 5. **Submit** a pull request
-
-## 📄 License
-
-MIT License - see LICENSE file for details
 
 ---
 
